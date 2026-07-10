@@ -6,6 +6,7 @@ let g:markdown_fenced_languages = ['c', 'python', 'bash', 'sh']
 set breakindent
 set breakindentopt+=list:3
 set clipboard+=unnamedplus
+set cursorcolumn
 set cursorline
 set cursorlineopt=both
 set expandtab
