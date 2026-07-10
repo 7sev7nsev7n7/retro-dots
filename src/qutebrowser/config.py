@@ -32,9 +32,10 @@ c.fileselect.handler = "external"
 c.fileselect.multiple_files.command = [ "kitty", "ranger", "--choosefiles={}", ]
 c.fileselect.single_file.command = [ "kitty", "ranger", "--choosefile={}", ]
 
-c.fonts.default_family = "Monocraft"
-c.fonts.hints = "bold default_size Monocraft"
-c.fonts.web.family.fixed = "Monocraft"
+c.fonts.default_family = "Terminess Nerd Font"
+c.fonts.default_size = "12pt"
+c.fonts.hints = "bold 14pt Terminess Nerd Font"
+c.fonts.web.family.fixed = "Terminess Nerd Font"
 
 c.hints.mode = "number"
 
