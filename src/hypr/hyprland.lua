@@ -38,7 +38,7 @@ hl.config({
   },
 
   input = {
-    kb_layout  = "us",
+    kb_layout  = "us,latam",
 
     repeat_rate = 50,
     repeat_delay = 250,
@@ -111,6 +111,9 @@ hl.bind("SUPER + A", hl.dsp.exec_cmd("pavucontrol"))
 
 -- flameshot
 hl.bind("SUPER + P", hl.dsp.exec_cmd("flameshot gui"))
+
+-- Switch keyboard layout
+hl.bind("SUPER + SPACE", hl.dsp.exec_cmd("hyprctl switchxkblayout current next"))
 
 -- Workspace navigation
 hl.bind("SUPER + H",  hl.dsp.focus({ direction = "left" }))
