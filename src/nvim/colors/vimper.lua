@@ -127,7 +127,7 @@ hi('SnippetTabstop',              {link='Visual'})
 hi('@markup.raw',        {link='Comment'})
 hi('@markup.link',       {link='Identifier'})
 hi('@markup.heading',    {link='Title'})
-hi('@markup.link.url',   {link='Underlined'})
+hi('@markup.link.url',   {ctermfg=14,cterm={underline=true}})
 hi('@markup.underline',  {link='Underlined'})
 hi('@comment.todo',      {link='Todo'})
 
