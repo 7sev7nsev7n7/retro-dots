@@ -32,10 +32,10 @@ c.fileselect.handler = "external"
 c.fileselect.multiple_files.command = [ "kitty", "ranger", "--choosefiles={}", ]
 c.fileselect.single_file.command = [ "kitty", "ranger", "--choosefile={}", ]
 
-c.fonts.default_family = "Terminess Nerd Font"
+c.fonts.default_family = "Iosevka"
 c.fonts.default_size = "12pt"
-c.fonts.hints = "bold 14pt Terminess Nerd Font"
-c.fonts.web.family.fixed = "Terminess Nerd Font"
+c.fonts.hints = "bold 14pt Iosevka"
+c.fonts.web.family.fixed = "Iosevka"
 
 c.hints.mode = "number"
 
