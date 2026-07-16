@@ -2,7 +2,7 @@
 colorscheme vimper
 set notermguicolors
 
-let g:markdown_fenced_languages = ['c', 'python', 'bash', 'sh']
+let g:markdown_fenced_languages = ['c', 'python', 'sh']
 set breakindent
 set breakindentopt+=list:3
 set clipboard+=unnamedplus
@@ -15,7 +15,6 @@ set ignorecase
 set langmap=Ñ\\:
 set linebreak
 set matchpairs+=<:>
-"set noshowmode
 set nowrap
 set nrformats+=alpha
 set number
@@ -34,7 +33,6 @@ map <A-Space> i <Esc>l
 map <A-w> :set wrap! 
 map <A-k> <C-y>
 map <A-j> <C-e>
-map <C-c> :set cursorcolumn! 
 
 " custom commands
 com! FormatJSON %!python -m json.tool
